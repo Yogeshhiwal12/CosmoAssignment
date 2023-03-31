@@ -1,0 +1,36 @@
+.nested-form {
+    margin-top: 2rem;
+    margin-left: 100px;
+    box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.842);
+    border-radius: 40PX;
+    max-width: 900px;
+    .btn1{
+        margin-left: 8px;
+   
+    }
+    
+    & > div {
+      
+      align-items: center;
+      padding: 40PX;
+      
+      
+      & > select {
+        margin-left: 16px;
+        min-width: 120px;
+      }
+      
+      & > button {
+        margin-left: 16px;
+      }
+      
+      & > .remove-button {
+        margin-left: 8px;
+      }
+    }
+    
+    .nested-form {
+      margin-left: 40px;
+    }
+  }
+  
